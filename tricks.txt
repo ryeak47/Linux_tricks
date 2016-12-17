@@ -1,0 +1,2 @@
+1¡¢How to know a machine's ip in LAN through its hostname?
+For example, if the hostname is abc, then you can 'ping abc.local' to get its ip address.
