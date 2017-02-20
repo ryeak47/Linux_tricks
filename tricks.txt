@@ -1,2 +1,9 @@
 1  How to know a machine's ip in LAN through its hostname?
 For example, if the hostname is abc, then you can 'ping abc.local' to get its ip address.
+
+2  How to install remote desktop server for Ubuntu 14.04 LTS?
+sudo apt-get install xrdp
+sudo apt-get install xfce4
+echo "xfce4-session" > ~/.xsession
+sudo /etc/init.d/xrdp restart
+sudo netstat -nlp | grep 3389  #check whether the port is on
